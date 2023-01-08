@@ -1,0 +1,565 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    
+    title VirusTotal
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='VirusTotal.co')
+    meta(name='keywords', content='scan, file, url, virus total, virus, total, analyze, responsive')
+    
+    meta(name='author', content='Luca')
+    meta(property='og:title', content='')
+    meta(property='og:image', content='')
+    meta(property='og:url', content='')
+    meta(property='og:site_name', content='')
+    meta(property='og:description', content='')
+    meta(name='twitter:title', content='')
+    meta(name='twitter:image', content='')
+    meta(name='twitter:url', content='')
+    meta(name='twitter:card', content='')
+    
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+    
+    // Animate.css
+    link(rel='stylesheet', href='css/animate.css')
+    // Icomoon Icon Fonts
+    link(rel='stylesheet', href='css/icomoon.css')
+    // Bootstrap
+    link(rel='stylesheet', href='css/bootstrap.css')
+    // Magnific Popup
+    link(rel='stylesheet', href='css/magnific-popup.css')
+    // Owl Carousel
+    link(rel='stylesheet', href='css/owl.carousel.min.css')
+    
+    link(rel='stylesheet', href='css/owl.theme.default.min.css')
+    // Theme style
+    link(rel='stylesheet', href='css/style.css')
+    // Modernizr JS
+    script(src='js/modernizr-2.6.2.min.js')
+    // FOR IE9 below
+    //if lt IE 9
+      script(src='js/respond.min.js')
+  
+  body
+    .gtco-loader
+    
+    #page
+      nav.gtco-nav(role='navigation')
+        .gtco-container
+          .row
+            .col-xs-2
+              #gtco-logo
+                a(href='/') VirusTotal
+            
+            .col-xs-8.text-center.menu-1
+              ul
+                li.active
+                  a(href='/') Home
+                
+                li
+                  a(href='/about') About
+                
+                li.has-dropdown
+                  a(href='/services') Services
+                  
+                  ul.dropdown
+                    li
+                      a(href='#') Web Design
+                    
+                    li
+                      a(href='#') eCommerce
+                    
+                    li
+                      a(href='#') Branding
+                    
+                    li
+                      a(href='#') API
+                
+                
+                li
+                  a(href='contact.html') Contact
+            
+            .col-xs-2.text-right.hidden-xs.menu-2
+              ul
+                li
+                  a(href='#') Login
+                li.btn-cta
+                  a(href='#')
+                    span Signup
+      
+      header#gtco-header.gtco-cover(role='banner', style='background-image:url(images/img_bg_1.jpg);')
+        .gtco-container
+          .row
+            .col-md-8.col-md-offset-2.text-center
+              .display-t
+                .display-tc.animate-box(data-animate-effect='fadeIn')
+                  h1 Oxygen
+                  
+                  h2
+                    | Free html5 templates Made by 
+                    a(href='http://gettemplates.co/', target='_blank') gettemplates.co
+                  
+                  p
+                    a.btn.btn-default(href='#') Get Started
+      
+      
+      #gtco-features
+        .gtco-container
+          .row
+            .col-md-4.col-sm-4
+              .feature-center.animate-box(data-animate-effect='fadeIn')
+                span.icon
+                  i.icon-eye
+                
+                h3 Retina Ready
+                
+                p
+                  | Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.
+                
+                p
+                  a.btn.btn-primary(href='#') Learn More
+            
+            .col-md-4.col-sm-4
+              .feature-center.animate-box(data-animate-effect='fadeIn')
+                span.icon
+                  i.icon-command
+                
+                h3 Fully Responsive
+                
+                p
+                  | Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.
+                
+                p
+                  a.btn.btn-primary(href='#') Learn More
+            
+            .col-md-4.col-sm-4
+              .feature-center.animate-box(data-animate-effect='fadeIn')
+                span.icon
+                  i.icon-power
+                
+                h3 Web Starter
+                
+                p
+                  | Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.
+                
+                p
+                  a.btn.btn-primary(href='#') Learn More
+      
+      #gtco-features-2
+        .gtco-container
+          .row
+            .col-md-8.col-md-offset-2.text-center.gtco-heading
+              h2 Why Choose Us
+              
+              p
+                | Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.
+          
+          .row
+            .col-md-6
+              .feature-left.animate-box(data-animate-effect='fadeInLeft')
+                span.icon
+                  i.icon-check
+                
+                .feature-copy
+                  h3 Retina Ready
+                  
+                  p
+                    | Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.
+              
+              .feature-left.animate-box(data-animate-effect='fadeInLeft')
+                span.icon
+                  i.icon-check
+                
+                .feature-copy
+                  h3 Fully Responsive
+                  
+                  p
+                    | Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.
+              
+              .feature-left.animate-box(data-animate-effect='fadeInLeft')
+                span.icon
+                  i.icon-check
+                
+                .feature-copy
+                  h3 Ready To Use
+                  
+                  p
+                    | Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.
+            
+            .col-md-6
+              .gtco-video.gtco-bg(style='background-image: url(images/img_1.jpg); ')
+                a.popup-vimeo(href='https://vimeo.com/channels/staffpicks/93951774')
+                  i.icon-video2
+                
+                .overlay
+      
+      #gtco-counter.gtco-bg.gtco-counter(style='background-image:url(images/img_bg_2.jpg);')
+        .gtco-container
+          .row
+            .display-t
+              .display-tc
+                .col-md-3.col-sm-6.animate-box
+                  .feature-center
+                    span.icon
+                      i.icon-eye
+                    
+                    span.counter.js-counter(data-from='0', data-to='22070', data-speed='5000', data-refresh-interval='50') 1
+                    
+                    span.counter-label Creativity Fuel
+                
+                .col-md-3.col-sm-6.animate-box
+                  .feature-center
+                    span.icon
+                      i.icon-anchor
+                    
+                    span.counter.js-counter(data-from='0', data-to='97', data-speed='5000', data-refresh-interval='50') 1
+                    
+                    span.counter-label Happy Clients
+                
+                .col-md-3.col-sm-6.animate-box
+                  .feature-center
+                    span.icon
+                      i.icon-briefcase
+                    
+                    span.counter.js-counter(data-from='0', data-to='402', data-speed='5000', data-refresh-interval='50') 1
+                    
+                    span.counter-label Projects Done
+                
+                .col-md-3.col-sm-6.animate-box
+                  .feature-center
+                    span.icon
+                      i.icon-clock
+                    
+                    span.counter.js-counter(data-from='0', data-to='212023', data-speed='5000', data-refresh-interval='50') 1
+                    
+                    span.counter-label Hours Spent
+      
+      #gtco-testimonial
+        .gtco-container
+          // <div class="row">
+          .row.animate-box
+            .col-md-8.col-md-offset-2.text-center.gtco-heading
+              h2 Testimonial
+          
+          .row.animate-box
+            .owl-carousel.owl-carousel-fullwidth
+              .item
+                .testimony-slide.active.text-center
+                  figure
+                    img(src='images/person_1.jpg', alt='user')
+                  
+                  span
+                    | Jean Doe, via 
+                    a.twitter(href='#') Twitter
+                  
+                  blockquote
+                    p
+                      | &ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;
+              
+              .item
+                .testimony-slide.active.text-center
+                  figure
+                    img(src='images/person_2.jpg', alt='user')
+                  
+                  span
+                    | John Doe, via 
+                    a.twitter(href='#') Twitter
+                  
+                  blockquote
+                    p
+                      | &ldquo;Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;
+              
+              .item
+                .testimony-slide.active.text-center
+                  figure
+                    img(src='images/person_3.jpg', alt='user')
+                  
+                  span
+                    | John Doe, via 
+                    a.twitter(href='#') Twitter
+                  
+                  blockquote
+                    p
+                      | &ldquo;Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;
+          // </div>
+      
+      #gtco-services
+        .gtco-container
+          .row.animate-box
+            .col-md-8.col-md-offset-2.text-center.gtco-heading
+              h2 What We Offer
+              
+              p
+                | Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.
+          
+          .row.animate-box
+            .gtco-tabs
+              ul.gtco-tab-nav
+                li.active
+                  a(href='#', data-tab='1')
+                    span.icon.visible-xs
+                      i.icon-command
+                    span.hidden-xs Web Design
+                
+                li
+                  a(href='#', data-tab='2')
+                    span.icon.visible-xs
+                      i.icon-bar-graph
+                    span.hidden-xs Online Marketing
+                
+                li
+                  a(href='#', data-tab='3')
+                    span.icon.visible-xs
+                      i.icon-bag
+                    span.hidden-xs E-Commerce
+                
+                li
+                  a(href='#', data-tab='4')
+                    span.icon.visible-xs
+                      i.icon-box
+                    span.hidden-xs Logo &amp; Branding
+              // Tabs
+              .gtco-tab-content-wrap
+                .gtco-tab-content.tab-content.active(data-tab-content='1')
+                  .col-md-6
+                    .icon.icon-xlg
+                      i.icon-command
+                  
+                  .col-md-6
+                    h2 Web Design
+                    
+                    p
+                      | Paragraph placeat quis fugiat provident veritatis quia iure a debitis adipisci dignissimos consectetur magni quas eius nobis reprehenderit soluta eligendi quo reiciendis fugit? Veritatis tenetur odio delectus quibusdam officiis est.
+                    
+                    p
+                      | Ullam dolorum iure dolore dicta fuga ipsa velit veritatis molestias totam fugiat soluta accusantium omnis quod similique placeat at. Dolorum ducimus libero fuga molestiae asperiores obcaecati corporis sint illo facilis.
+                    
+                    .row
+                      .col-md-6
+                        h2.uppercase Keep it simple
+                        
+                        p Ullam dolorum iure dolore dicta fuga ipsa velit veritatis
+                      
+                      .col-md-6
+                        h2.uppercase Less is more
+                        
+                        p Ullam dolorum iure dolore dicta fuga ipsa velit veritatis
+                
+                .gtco-tab-content.tab-content(data-tab-content='2')
+                  .col-md-6
+                    .icon.icon-xlg
+                      i.icon-bar-graph
+                  
+                  .col-md-6
+                    h2 Online Marketing
+                    
+                    p
+                      | Paragraph placeat quis fugiat provident veritatis quia iure a debitis adipisci dignissimos consectetur magni quas eius nobis reprehenderit soluta eligendi quo reiciendis fugit? Veritatis tenetur odio delectus quibusdam officiis est.
+                    
+                    p
+                      | Ullam dolorum iure dolore dicta fuga ipsa velit veritatis molestias totam fugiat soluta accusantium omnis quod similique placeat at. Dolorum ducimus libero fuga molestiae asperiores obcaecati corporis sint illo facilis.
+                    
+                    .row
+                      .col-md-6
+                        h2.uppercase Ready to use
+                        
+                        p Ullam dolorum iure dolore dicta fuga ipsa velit veritatis
+                      
+                      .col-md-6
+                        h2.uppercase 100% Satisfaction
+                        
+                        p Ullam dolorum iure dolore dicta fuga ipsa velit veritatis
+                
+                .gtco-tab-content.tab-content(data-tab-content='3')
+                  .col-md-6
+                    .icon.icon-xlg
+                      i.icon-bag
+                  
+                  .col-md-6
+                    h2 e-Commerce
+                    
+                    p
+                      | Ullam dolorum iure dolore dicta fuga ipsa velit veritatis molestias totam fugiat soluta accusantium omnis quod similique placeat at. Dolorum ducimus libero fuga molestiae asperiores obcaecati corporis sint illo facilis.
+                    
+                    p
+                      | Paragraph placeat quis fugiat provident veritatis quia iure a debitis adipisci dignissimos consectetur magni quas eius nobis reprehenderit soluta eligendi quo reiciendis fugit? Veritatis tenetur odio delectus quibusdam officiis est.
+                    
+                    .row
+                      .col-md-6
+                        h2.uppercase Easy to shop
+                        
+                        p Ullam dolorum iure dolore dicta fuga ipsa velit veritatis
+                      
+                      .col-md-6
+                        h2.uppercase No credit card required
+                        
+                        p Ullam dolorum iure dolore dicta fuga ipsa velit veritatis
+                
+                .gtco-tab-content.tab-content(data-tab-content='4')
+                  .col-md-6
+                    .icon.icon-xlg
+                      i.icon-box
+                  
+                  .col-md-6
+                    h2 Logo &amp; Branding
+                    
+                    p
+                      | Paragraph placeat quis fugiat provident veritatis quia iure a debitis adipisci dignissimos consectetur magni quas eius nobis reprehenderit soluta eligendi quo reiciendis fugit? Veritatis tenetur odio delectus quibusdam officiis est.
+                    
+                    p
+                      | Ullam dolorum iure dolore dicta fuga ipsa velit veritatis molestias totam fugiat soluta accusantium omnis quod similique placeat at. Dolorum ducimus libero fuga molestiae asperiores obcaecati corporis sint illo facilis.
+                    
+                    .row
+                      .col-md-6
+                        h2.uppercase Pixel perfect
+                        
+                        p Ullam dolorum iure dolore dicta fuga ipsa velit veritatis
+                      
+                      .col-md-6
+                        h2.uppercase User Interface Expert
+                        
+                        p Ullam dolorum iure dolore dicta fuga ipsa velit veritatis
+      
+      #gtco-started
+        .gtco-container
+          .row.animate-box
+            .col-md-8.col-md-offset-2.text-center.gtco-heading
+              h2 Get Started
+          
+          .row.animate-box
+            .col-md-12
+              form.form-inline
+                .col-md-4.col-sm-4
+                  .form-group
+                    label.sr-only(for='email') Email
+                    
+                    input#email.form-control(type='email', placeholder='Email')
+                
+                .col-md-4.col-sm-4
+                  .form-group
+                    label.sr-only(for='password') Password
+                    
+                    input#password.form-control(type='password', placeholder='Password')
+                
+                .col-md-4.col-sm-4
+                  button.btn.btn-default.btn-block(type='submit') Sign Up
+      
+      footer#gtco-footer(role='contentinfo')
+        .gtco-container
+          .row.row-pb-md
+            .col-md-4.gtco-widget
+              h3 The Company
+              
+              p
+                | Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.
+              
+              p
+                a(href='#') Learn More
+            
+            .col-md-2.col-sm-4.col-xs-6.col-md-push-1
+              ul.gtco-footer-links
+                li
+                  a(href='#') About
+                
+                li
+                  a(href='#') Help
+                
+                li
+                  a(href='#') Contact
+                
+                li
+                  a(href='#') Terms
+                
+                li
+                  a(href='#') Meetups
+            
+            .col-md-2.col-sm-4.col-xs-6.col-md-push-1
+              ul.gtco-footer-links
+                li
+                  a(href='#') Shop
+                
+                li
+                  a(href='#') Privacy
+                
+                li
+                  a(href='#') Testimonials
+                
+                li
+                  a(href='#') Handbook
+                
+                li
+                  a(href='#') Held Desk
+            
+            .col-md-2.col-sm-4.col-xs-6.col-md-push-1
+              ul.gtco-footer-links
+                li
+                  a(href='#') Find Designers
+                
+                li
+                  a(href='#') Find Deelopers
+                
+                li
+                  a(href='#') Teams
+                
+                li
+                  a(href='#') Advertise
+                
+                li
+                  a(href='#') API
+          
+          .row.copyright
+            .col-md-12
+              p.pull-left
+                small.block &copy; 2016 Free HTML5. All Rights Reserved.
+                |  
+                
+                small.block
+                  | Designed by 
+                  a(href='http://gettemplates.co/', target='_blank') GetTemplates.co
+                  |  Demo Images: 
+                  a(href='http://unsplash.co/', target='_blank') Unsplash
+              
+              p.pull-right
+              ul.gtco-social-icons.pull-right
+                li
+                  a(href='#')
+                    i.icon-twitter
+                
+                li
+                  a(href='#')
+                    i.icon-facebook
+                
+                li
+                  a(href='#')
+                    i.icon-linkedin
+                
+                li
+                  a(href='#')
+                    i.icon-dribbble
+              
+              p
+    
+    .gototop.js-top
+      a.js-gotop(href='#')
+        i.icon-arrow-up
+    // jQuery
+    script(src='js/jquery.min.js')
+    // jQuery Easing
+    script(src='js/jquery.easing.1.3.js')
+    // Bootstrap
+    script(src='js/bootstrap.min.js')
+    // Waypoints
+    script(src='js/jquery.waypoints.min.js')
+    // Carousel
+    script(src='js/owl.carousel.min.js')
+    // countTo
+    script(src='js/jquery.countTo.js')
+    // Magnific Popup
+    script(src='js/jquery.magnific-popup.min.js')
+    
+    script(src='js/magnific-popup-options.js')
+    // Main
+    script(src='js/main.js')
